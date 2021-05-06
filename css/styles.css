@@ -1,0 +1,10 @@
+body {
+    background-image: url("../assets/TGHA-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+}
+
+.background {
+    background-color: lightblue;
+}
