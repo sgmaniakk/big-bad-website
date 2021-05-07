@@ -48,7 +48,7 @@ table {
 }
 
 body {
-    background-image: url("../assets/TGHA.jpg");
+    background-image: url("../assets/TGHA-16x9.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #cccccc;
@@ -59,3 +59,16 @@ body, html {
     height: 100%;
     min-height: 100%;
 }
+
+.button {
+	transition-duration: 0.15s;
+	border: 1px outset black;
+   	background-color: transparent;
+	padding: 1em;
+}
+
+.button:hover {
+	background-color: white; /* Green */
+	color: black;
+	cursor: pointer;
+  }
