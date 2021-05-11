@@ -43,10 +43,10 @@ table {
 }
 
 body {
-    background-image: url("../assets/TGHA-smartphone.jpg");
+    background-image: url("../assets/TGHA-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: lightblue;
+    background-color: #5397d4;
     background-position: center center;
 }
 
@@ -62,13 +62,13 @@ button:hover {
 	cursor: pointer;
   }
 
-.main {
-	padding: 2em;
+.container {
+	padding-top: 70px;
 	margin: 10px;
 }
 
 h1 {
-	font-size: 5em;
+	font-size: 3em;
 	color: white;
 }
 
@@ -79,7 +79,12 @@ h2 {
 }
 
 .button-pannel {
-	width: 150px;
+	position: fixed;
+    top: 0;
+    display: flex;
+    right: 0;
+    width: 100%;
+    justify-content: right;
 }
 
 .button-pannel a{
@@ -94,12 +99,17 @@ h2 {
 	margin: 10px;
 }
 
-.title {
-	margin-left: 0px;
-}
-
 .subscribe-body {
 	background-image: url("../assets/TGHA-background.jpg");
+}
+
+.cover-photo {
+	position: absolute;
+	width: 70%;
+	transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+	z-index: -1;
 }
 
 #mc_embed_signup {
@@ -107,17 +117,13 @@ h2 {
 }
 
 @media screen and (min-width: 768px) {
-  body {
-    background-image: url("../assets/TGHA-16x9.jpg");
-  }
+	.cover-photo {
+		width: 60%;
+	}
 }
 
 @media screen and (min-width: 1024px) {
-	body {
-	  background-image: url("../assets/TGHA-16x9.jpg");
-	}
-  
-	h1 {
-	  font-size: 7em;
+	.cover-photo {
+		width: 30%;
 	}
   }
