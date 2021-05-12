@@ -48,6 +48,7 @@ body {
     background-repeat: no-repeat;
     background-color: #5397d4;
     background-position: center center;
+	color: white;
 }
 
 body, html {
@@ -57,35 +58,34 @@ body, html {
 }
 
 .button:hover {
-	background-color: white;
+	background-color: whitesmoke;
 	color: black;
 	cursor: pointer;
 	transition-duration: 00.1s;
   }
 
 .container {
-	padding-top: 70px;
+	padding-top: 10px;
 	margin: 10px;
 }
 
 h1 {
 	font-size: 3em;
-	color: white;
 }
 
 h2 {
 	padding: 1em;
 	font-size: 2em;
-	color: white;
 }
 
 .button-pannel {
 	position: fixed;
     top: 0;
-    display: flex;
-    right: 0;
-    width: 100%;
+    display: block;
+    right: 25%;
+    width: 200px;
     justify-content: right;
+	padding-top: 600px;
 }
 
 .button{
@@ -126,18 +126,43 @@ h2 {
 									supported by Chrome, Edge, Opera and Firefox */
   }
 
+.mc-field-group {
+	padding: 10px;
+}
+
 #mc_embed_signup {
 	background-color: transparent;
+	border: 1px outset black;
 }
 
 @media screen and (min-width: 768px) {
 	.cover-photo {
 		width: 60%;
 	}
+
+	.button-pannel {
+		position: fixed;
+		top: 0;
+		display: flex;
+		right: 30%;
+		width: 300px;
+		justify-content: center;
+		padding-top: 600px;
+	}
 }
 
 @media screen and (min-width: 1024px) {
 	.cover-photo {
 		width: 30%;
+	}
+
+	.button-pannel {
+		position: fixed;
+		top: 0;
+		display: flex;
+		right: 30%;
+		width: 300px;
+		justify-content: center;
+		padding-top: 600px;
 	}
   }
