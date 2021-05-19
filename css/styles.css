@@ -76,17 +76,15 @@ h1 {
 h2 {
 	padding-top: 10px;
 	font-size: 1em;
-	color: red;
 }
 
 .button-pannel {
 	position: absolute;
-    top: 0;
     display: block;
     right: 25%;
     width: 200px;
     justify-content: right;
-	padding-top: 520px;
+	bottom: 0;
 }
 
 .button{
