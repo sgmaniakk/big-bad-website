@@ -134,6 +134,13 @@ h2 {
 	border: 1px outset black;
 }
 
+#subscribe_text {
+	font-style: italic;
+	color: #3c688e;
+	padding-left: 10px;
+	font-size: 0.75em;
+}
+
 @media screen and (min-width: 768px) {
 	.cover-photo {
 		width: 60%;
