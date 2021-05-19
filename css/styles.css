@@ -23,8 +23,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html {
+	overflow: hidden;
+}
 body {
 	line-height: 1;
+	overflow-y: auto;
 }
 ol, ul {
 	list-style: none;
@@ -81,10 +85,9 @@ h2 {
 .button-pannel {
 	position: absolute;
     display: block;
-    right: 25%;
     width: 200px;
-    justify-content: right;
 	bottom: 0;
+	text-align: center;
 }
 
 .button{
@@ -144,16 +147,6 @@ h2 {
 @media screen and (min-width: 768px) {
 	.cover-photo {
 		width: 60%;
-	}
-
-	.button-pannel {
-		position: fixed;
-		top: 0;
-		display: flex;
-		right: 30%;
-		width: 300px;
-		justify-content: center;
-		padding-top: 600px;
 	}
 }
 
