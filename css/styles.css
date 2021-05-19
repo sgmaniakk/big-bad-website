@@ -62,7 +62,7 @@ body, html {
 }
 
 .button:hover {
-	background-color: whitesmoke;
+	background-color: white;
 	color: black;
 	cursor: pointer;
 	transition-duration: 00.1s;
@@ -74,20 +74,28 @@ body, html {
 }
 
 h1 {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 	font-size: 3em;
 }
 
 h2 {
 	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 	font-size: 1em;
 }
 
 .button-pannel {
 	position: absolute;
     display: block;
-    width: 200px;
-	bottom: 0;
+	bottom: 30px;
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
 }
 
 .button{
@@ -100,6 +108,11 @@ h2 {
    	background-color: transparent;
 	padding: 1em;
 	margin: 10px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
 }
 
 .subscribe-body {
@@ -144,6 +157,10 @@ h2 {
 	font-size: 0.75em;
 }
 
+#subscribe_button {
+	width: 150px;
+}
+
 @media screen and (min-width: 768px) {
 	.cover-photo {
 		width: 60%;
@@ -153,15 +170,5 @@ h2 {
 @media screen and (min-width: 1024px) {
 	.cover-photo {
 		width: 30%;
-	}
-
-	.button-pannel {
-		position: fixed;
-		top: 0;
-		display: flex;
-		right: 30%;
-		width: 300px;
-		justify-content: center;
-		padding-top: 600px;
 	}
   }
